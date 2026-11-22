@@ -1,0 +1,106 @@
+/* ================= REGISTER PAGE ================= */
+
+body {
+    background: #eee6d8;
+    min-height: 100vh;
+    padding: 50px 15px;
+    font-family: Arial, sans-serif;
+}
+
+/* REGISTER CARD */
+
+.register-card {
+    width: 600px;
+    max-width: 100%;
+    background: #ffffff;
+    border: 1px solid #e8ddca;
+    border-radius: 20px;
+    padding: 40px;
+    margin: auto;
+
+    box-shadow: 0 15px 45px rgba(24, 61, 50, 0.12);
+}
+
+/* LOGO */
+
+.logo {
+    color: #183d32;
+    font-size: 30px;
+    font-weight: 700;
+    text-align: center;
+    letter-spacing: 1px;
+}
+
+/* SUBTITLE */
+
+.subtitle {
+    text-align: center;
+    color: #777d76;
+    margin-bottom: 30px;
+}
+
+/* FORM */
+
+.form-control {
+    padding: 12px 15px;
+    border-radius: 10px;
+    border: 1px solid #ded8cc;
+    background: #fdfcf8;
+    color: #333d35;
+    transition: 0.3s;
+}
+
+.form-control:focus {
+    border-color: #183d32;
+    box-shadow: 0 0 0 3px rgba(24, 61, 50, 0.10);
+    background: #ffffff;
+}
+
+/* REGISTER BUTTON */
+
+.register-btn {
+    width: 100%;
+    padding: 13px;
+    border: none;
+    border-radius: 25px;
+    background: #183d32;
+    color: white;
+    font-weight: 600;
+    transition: 0.3s;
+}
+
+.register-btn:hover {
+    background: #2d5b49;
+    color: #ffffff;
+    transform: translateY(-2px);
+}
+
+/* LOGIN LINK */
+
+.login-link {
+    color: #7b6847;
+    text-decoration: none;
+    font-weight: 600;
+    transition: 0.3s;
+}
+
+.login-link:hover {
+    color: #183d32;
+    text-decoration: underline;
+}
+
+/* MOBILE */
+
+@media (max-width: 576px) {
+    body {
+        padding: 25px 15px;
+    }
+
+    .register-card {
+        padding: 25px;
+    }
+
+    .logo {
+        font-size: 26px;
+    }
+}

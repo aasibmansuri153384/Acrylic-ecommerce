@@ -1,0 +1,47 @@
+/* ================= NAVBAR ================= */
+
+.navbar {
+    background-color: #183d32;
+    box-shadow: 0 3px 15px rgba(24, 61, 50, 0.12);
+    padding: 14px 0;
+}
+
+.navbar-brand {
+    font-size: 25px;
+    font-weight: 700;
+    color: #e8ddca !important;
+    letter-spacing: 1px;
+    transition: 0.3s;
+}
+
+.navbar-brand:hover {
+    color: #ffffff !important;
+}
+
+.nav-link {
+    color: #ffffff !important;
+    font-weight: 500;
+    margin-left: 12px;
+    transition: 0.3s;
+}
+
+.nav-link:hover {
+    color: #e8ddca !important;
+}
+
+/* SHOP BUTTON */
+
+.shop-btn {
+    background-color: #e8ddca;
+    color: #183d32 !important;
+    padding: 8px 18px !important;
+    border-radius: 20px;
+    font-weight: 600;
+    transition: 0.3s;
+}
+
+.shop-btn:hover {
+    background-color: #d6c5a7;
+    color: #183d32 !important;
+    transform: translateY(-2px);
+}
