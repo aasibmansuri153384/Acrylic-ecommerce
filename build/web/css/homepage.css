@@ -1,0 +1,249 @@
+
+/* =================================
+   ACRYLO - FOREST GREEN LUXURY
+================================= */
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fdfcf8;
+    color: #333d35;
+}
+
+/* NAVBAR */
+
+.navbar {
+    background-color: #183d32 !important;
+}
+
+.navbar-brand {
+    color: #e8ddca !important;
+    font-weight: 700;
+    letter-spacing: 2px;
+}
+
+.navbar .nav-link {
+    color: #ffffff !important;
+    transition: 0.3s;
+}
+
+.navbar .nav-link:hover {
+    color: #e8ddca !important;
+}
+
+/* CAROUSEL */
+
+.carousel-item {
+    height: 550px;
+}
+
+.carousel-item img {
+    width: 100%;
+    height: 550px;
+    object-fit: cover;
+}
+
+.carousel-caption {
+    background: rgba(24, 61, 50, 0.82);
+    padding: 30px;
+    border-radius: 15px;
+    max-width: 650px;
+    margin: auto;
+}
+
+.carousel-caption h1 {
+    font-size: 45px;
+    font-weight: 700;
+    color: #ffffff;
+}
+
+.carousel-caption p {
+    font-size: 18px;
+    color: #e8ddca;
+}
+
+/* SECTION */
+
+.section-title {
+    font-weight: 700;
+    color: #183d32;
+}
+
+.section-subtitle {
+    color: #777d76;
+    max-width: 650px;
+    margin: auto;
+}
+
+/* PRODUCT CARDS */
+
+.product-card {
+    background: #ffffff;
+    border: 1px solid #eee8dc;
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0 5px 20px rgba(24, 61, 50, 0.08);
+    transition: 0.3s;
+    height: 100%;
+}
+
+.product-card:hover {
+    transform: translateY(-8px);
+    border-color: #c9b99b;
+    box-shadow: 0 10px 25px rgba(24, 61, 50, 0.15);
+}
+
+.product-card img {
+    height: 230px;
+    width: 100%;
+    object-fit: cover;
+}
+
+.product-card .card-body {
+    padding: 20px;
+}
+
+.product-title {
+    color: #183d32;
+    font-weight: 600;
+}
+
+.price {
+    font-size: 20px;
+    font-weight: 700;
+    color: #7b6847;
+}
+
+.view-btn {
+    background-color: #183d32;
+    color: white;
+    border-radius: 20px;
+    padding: 8px 20px;
+    text-decoration: none;
+    display: inline-block;
+    transition: 0.3s;
+}
+
+.view-btn:hover {
+    background-color: #2d5b49;
+    color: #ffffff;
+}
+
+/* ABOUT */
+
+.about-section {
+    background-color: #eee6d8;
+}
+
+.feature-box {
+    background: #ffffff;
+    padding: 30px 20px;
+    border-radius: 15px;
+    height: 100%;
+    text-align: center;
+    box-shadow: 0 4px 15px rgba(24, 61, 50, 0.06);
+    transition: 0.3s;
+}
+
+.feature-box:hover {
+    transform: translateY(-5px);
+}
+
+.feature-icon {
+    font-size: 40px;
+    margin-bottom: 15px;
+    color: #183d32;
+}
+
+/* DELIVERY */
+
+.delivery-section {
+    background-color: #183d32;
+    color: white;
+}
+
+.delivery-card {
+    background-color: rgba(255, 255, 255, 0.08);
+    border: 1px solid rgba(255, 255, 255, 0.15);
+    padding: 25px;
+    border-radius: 15px;
+    height: 100%;
+    transition: 0.3s;
+}
+
+.delivery-card:hover {
+    background-color: rgba(255, 255, 255, 0.13);
+}
+
+.delivery-card h5 {
+    font-weight: 600;
+    color: #e8ddca;
+}
+
+/* CUSTOMIZATION */
+
+.custom-section {
+    background-color: #f4efe5;
+}
+
+.custom-box {
+    background-color: #ffffff;
+    border: 1px solid #eee8dc;
+    border-radius: 20px;
+    padding: 45px;
+}
+
+/* FOOTER */
+
+footer {
+    background-color: #102b23;
+    color: #d5ddd6;
+}
+
+footer h5 {
+    color: #e8ddca;
+    font-weight: 600;
+}
+
+footer a {
+    color: #d5ddd6;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+footer a:hover {
+    color: #e8ddca;
+}
+
+.copyright {
+    border-top: 1px solid #345044;
+    padding-top: 20px;
+}
+
+/* MOBILE */
+
+@media (max-width: 768px) {
+
+    .carousel-item {
+        height: 400px;
+    }
+
+    .carousel-item img {
+        height: 400px;
+    }
+
+    .carousel-caption {
+        padding: 15px;
+    }
+
+    .carousel-caption h1 {
+        font-size: 28px;
+    }
+
+    .carousel-caption p {
+        font-size: 14px;
+    }
+
+    .custom-box {
+        padding: 25px;
+    }
+}
