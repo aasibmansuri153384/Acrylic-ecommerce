@@ -1,0 +1,1 @@
+typeSearchIndex = [{"l":"All Classes and Interfaces","u":"allclasses-index.html","k":"18"},{"p":"com.acrylicshop.util","l":"DBConnection"},{"p":"com.acrylicshop.model","l":"Product"},{"p":"com.acrylicshop.dao","l":"ProductDAO"},{"p":"com.acrylicshop.servlet","l":"ProductServlet"}];updateSearchResults();

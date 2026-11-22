@@ -1,0 +1,1 @@
+packageSearchIndex = [{"l":"All Packages","u":"allpackages-index.html","k":"18"},{"l":"com.acrylicshop.dao"},{"l":"com.acrylicshop.model"},{"l":"com.acrylicshop.servlet"},{"l":"com.acrylicshop.util"}];updateSearchResults();
